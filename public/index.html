@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chat</title>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <td>Käyttäjä</td>
+          <td>Viesti</td>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    <form id="message">
+      <input id="name" placeholder="Nimi">
+      <input id="body" placeholder="Viesti">
+      <button type="submit">Lähetä</button>
+    </form>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="chat.js"></script>
+  </body>
+</html>
